@@ -1,0 +1,77 @@
+PDF DIBUAT DARI HTML:
+
+<!-- DEBUG-VIEW START 1 APPPATH\Views\admin\kehadiran\pdf_template.php -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rekap Kehadiran 18 Dec 2025</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .header { text-align: center; margin-bottom: 30px; }
+        .header h1 { margin: 0; font-size: 24px; }
+        .header p { margin: 5px 0 0 0; font-size: 14px; }
+        .info-box { margin-bottom: 20px; border: 1px solid #ddd; padding: 10px; }
+        .info-box p { margin: 5px 0; font-size: 13px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 12px; }
+        th, td { border: 1px solid #333; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .status-hadir { color: green; font-weight: bold; }
+        .status-tidak-hadir { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>REKAP KEHADIRAN ANGGOTA GAYATRI ART</h1>
+        <p>Tanggal Pertemuan: **18 December 2025**</p>
+        <p>Keterangan: Latihan Rutin</p>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th width="5%">No</th>
+                <th width="30%">Nama Anggota</th>
+                <th width="15%">Kelas</th>
+                <th width="15%">Status</th>
+                <th>Keterangan</th>
+            </tr>
+        </thead>
+        <tbody>
+                                    <tr>
+                <td>1</td>
+                <td>Kayla Rahmawati</td>
+                <td>Dasar 1</td>
+                <td class="status-hadir">
+                    hadir                </td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>2</td>
+                <td>Kayla Rahmawati</td>
+                <td>Dasar 2</td>
+                <td class="status-hadir">
+                    hadir                </td>
+                <td></td>
+            </tr>
+                        <tr>
+                <td>3</td>
+                <td>Kayla Rahmawati</td>
+                <td>Madya 1</td>
+                <td class="status-hadir">
+                    hadir                </td>
+                <td></td>
+            </tr>
+                    </tbody>
+    </table>
+
+    <div style="margin-top: 50px; text-align: right;">
+        <p>Pekalongan, 18 December 2025</p>
+        <p style="margin-top: 50px;">(_______________________)</p>
+        <p>Admin / Pelatih</p>
+    </div>
+
+</body>
+</html>
+
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\admin\kehadiran\pdf_template.php -->
